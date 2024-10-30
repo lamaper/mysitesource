@@ -1,0 +1,33 @@
+baseURL = 'https://lamaper.github.io/'
+languageCode = 'zh-CN'
+title = 'lamaper'
+theme = "hugo-theme-m10c"
+
+[params]
+  author = "lamaper"
+  description = "你好，我是lamaper，BIT信科大一学生，喜欢与计算机相关的所有东西！"
+  avatar = "https://avatars.githubusercontent.com/u/108182318?v=4"
+  favicon = "https://avatars.githubusercontent.com/u/108182318?v=4"
+  [[params.social]]
+    icon = "brand-github"
+    name = "My Github"
+    url = "https://github.com/lamaper"
+  [[params.social]]
+    icon = "brand-bilibili"
+    name = "My bilibili"
+    url = "https://space.bilibili.com/450695599"
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup] 
+  [markup.tableOfContents] 
+  startLevel = 1 
+  endLevel = 3
